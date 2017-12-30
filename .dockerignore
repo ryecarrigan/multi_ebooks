@@ -1,0 +1,4 @@
+.idea/
+corpus/*.json
+model/*.model
+ebooks.env*

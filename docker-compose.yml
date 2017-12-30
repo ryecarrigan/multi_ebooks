@@ -1,0 +1,13 @@
+version: '3.0'
+
+services:
+  ebooks:
+    build:
+      context: .
+    env_file:
+      - ebooks.env
+    volumes:
+      - corpus:/home/ebooks/corpus
+
+volumes:
+  corpus:
